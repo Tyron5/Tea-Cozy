@@ -80,7 +80,7 @@ img {
 
 .main-bg-img {
     display: flex;
-    background-image: url("C:/Users/A88XM-A001DT-AMD/Documents/Code-Academy/Projects/Tea-Cozy/resources/images/img-mission-background.jpg");
+    background-image: url("https://github.com/Tyron5/Tea-Cozy/blob/master/resources/images/img-mission-background.jpg");
     align-items: center;    
 }
 
@@ -183,7 +183,7 @@ h2, h4 {
 }
 
 .section-4-1 {
-    background-image: url("C:/Users/A88XM-A001DT-AMD/Documents/Code-Academy/Projects/Tea-Cozy/resources/images/img-locations-background.jpg");
+    background-image: url("https://github.com/Tyron5/Tea-Cozy/blob/master/resources/images/img-locations-background.jpg");
     background-size: cover;
     flex-direction: column;    
     justify-content: center;
