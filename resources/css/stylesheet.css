@@ -1,0 +1,246 @@
+/*
+Project Name: Tea Cozy
+Project Status:  
+Author: KnightCoder     
+Date: 2/28/2018 
+Revision: 1.0
+*/
+
+html, body {
+    margin: 0; /* Zero margin in html and body tag */
+    padding: 0; /* Zero padding in html and body tag */
+    font-family: "Helvetica", sans-serif;
+    font-size: 22px;    
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+
+/* Shared Attributes Section */
+
+    html, body, a {
+        color: seashell;  /* Changes text and hyperlinks to color: seashell */
+    }
+
+    .main-bg-img,
+    .section-1,
+    .section-2,
+    .logo {
+        display: flex;        
+    }
+
+
+/* Section 1 [ Header ] */
+
+
+
+
+.section-1 {
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 69px;
+}
+
+.logo {
+    align-items: center;
+    flex-grow: 1;
+    padding-left: 10px;    
+}
+
+img {
+    height: 50px;
+}
+
+.nav {
+    padding-right: 40px;
+}
+
+.nav-links {
+    display: inline-block;
+    padding: 20px 10px; 
+    /*The first value, 20px, sets the padding value for the top and bottom sides of the content
+    The second value, 10px, sets the padding value for the left and right sides of the content */
+}
+
+/* Section 2 [ Main ] */
+
+.section-2 {
+    justify-content: center;
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    padding-top: 69px;
+      
+}
+
+.main-bg-img {
+    display: flex;
+    background-image: url("C:/Users/A88XM-A001DT-AMD/Documents/Code-Academy/Projects/Tea-Cozy/resources/images/img-mission-background.jpg");
+    align-items: center;    
+}
+
+h2, h4 {   
+    /* Code to control text attributes in section 2 [ Main ] */
+    background-color: black;
+    margin: 0 auto;
+    padding: 6px;
+}
+
+/* Section 3 [ Main ] */
+
+
+/* Shared Attributes Section */
+
+    .section-3a,
+    .section-3b,
+    .section-3c {
+        display: flex;        
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .section-3b-1-L,
+    .section-3b-1-C,
+    .section-3b-1-R,
+    .section-3c-2-L,
+    .section-3c-2-R {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+.section-3 {
+    margin-top: 50px;
+}
+
+.section-3c {
+    margin-top: 20px;
+}
+
+.section-3a-1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-3b-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1000px;
+}
+
+.section-3c-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 620px; 
+} 
+
+.img-section-3 {
+    height: 200px;
+    width: 300px;
+}
+
+.text-section-3 {
+    margin-top: 10px;
+}
+
+
+/* Section 4 [ Locations ] */
+
+
+/* Shared Attributes Section */
+
+    .section-4,
+    .section-4-1-1,
+    .section-4-1-1-1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .section-4-1-1-1-L,
+    .section-4-1-1-1-C,
+    .section-4-1-1-1-R {
+        background: black;
+        width: 300px;
+        opacity: 1.0;        
+    }
+
+.section-4 {
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.titles {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.section-4-1 {
+    background-image: url("C:/Users/A88XM-A001DT-AMD/Documents/Code-Academy/Projects/Tea-Cozy/resources/images/img-locations-background.jpg");
+    background-size: cover;
+    flex-direction: column;    
+    justify-content: center;
+    height: 500px;
+    width: 1000px;    
+}
+
+.section-4-H {
+    margin-top: 70px;
+}
+
+
+.section-4-1-1 {
+    justify-content: center;
+    margin-top: 15px;
+}
+
+
+.section-4-1-1-1 {
+    justify-content: space-between;
+    width: 980px;
+}
+
+/* Section 5 [ Footer ] */
+
+
+/* Shared Attributes Section */
+
+    .section-5,
+    .section-5a-1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .text-footer {  /* Equivalent to <h5> based on font-family */
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+.section-5 {
+    flex-direction: column;
+    align-items: center;
+}
+    
+.section-5a-1 {
+    justify-content: center;
+    width: 1000px;
+    height: 200px;
+}
+
+.section-5a-1-1 {
+    width: 300px;    
+}
+
+/* Section 6 [ Copyright ] */
+
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+}
